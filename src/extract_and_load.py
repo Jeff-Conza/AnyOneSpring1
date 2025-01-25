@@ -1,9 +1,9 @@
-from typing import Dict #Este es para anotaciones de tipo diccionario0 (preguntar)
-import requests
+from typing import Dict     #Este es para anotaciones de tipo diccionario0 (preguntar)
+import requests             # Used for APIs usage
 import os
 from pandas import DataFrame, read_csv, read_json, to_datetime
-from pathlib import Path # Manejo de rutas de forma multiplataforma
-from io import StringIO # Maneja strings como archivos para Pandas
+from pathlib import Path    # Manejo de rutas de forma multiplataforma
+from io import StringIO     # Maneja strings como archivos para Pandas
 
 from typing import Dict
 from sqlalchemy.engine.base import Engine
